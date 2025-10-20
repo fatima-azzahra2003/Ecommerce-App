@@ -23,13 +23,13 @@ public class CustomerServiceApplication {
         repositoryRestConfiguration.exposeIdsFor(Customer.class);
         return args -> {
             customerRepository.save(
-                    new Customer(null, "yassine", "yassine@gmail.com")
+                    new Customer(null, "fatima-Azzahra", "Fatima-Azzahra@gmail.com")
             );
             customerRepository.save(
-                    new Customer(null, "yahya", "yahya@gmail.com")
+                    new Customer(null, "Layla", "Layla@gmail.com")
             );
             customerRepository.save(
-                    new Customer(null, "ali", "ali@gmail.com")
+                    new Customer(null, "Nora", "Nora@gmail.com")
             );
             customerRepository.findAll().forEach(c ->{
                 System.out.println(c.toString());
