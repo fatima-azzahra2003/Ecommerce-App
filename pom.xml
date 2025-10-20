@@ -26,7 +26,7 @@
         <module>inventory-service</module>
         <module>billing-service</module>
         <module>config-service</module>
-        <module>config-repo</module>
+
     </modules>
 
     <!-- Propriétés -->
