@@ -24,6 +24,7 @@
         <module>gateway-service</module>
         <module>discovery-service</module>
         <module>inventory-service</module>
+        <module>billing-service</module>
     </modules>
 
     <!-- Propriétés -->
