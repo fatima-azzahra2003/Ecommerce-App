@@ -21,6 +21,7 @@
     <!-- Les modules enfants -->
     <modules>
         <module>customer-service</module>
+        <module>gateway-service</module>
     </modules>
 
     <!-- Propriétés -->
